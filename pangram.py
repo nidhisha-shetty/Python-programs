@@ -1,3 +1,5 @@
+# Program to check if a given sentence is pangram or not 
+
 def check_pangram(str):
     if len(set('abcdefghijklmnopqrstuvwxyz') - set(str)) == 0 :
         return True
