@@ -1,3 +1,6 @@
+#remove redundant elements 
+# for example: i/p: aaabaa
+#              o/p: aba
 def red(string):
     li=[]
     li.append(string[0])
