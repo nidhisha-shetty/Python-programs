@@ -7,7 +7,7 @@ if alphabet in vowel_list:
 else:
     print(alphabet+" is not a vowel")
     
-Example: To check if the triangle is equilateral, scalene, or isosceles
+Example 2: To check if the triangle is equilateral, scalene, or isosceles
 side_1=input("Enter the length of side_1")
 side_2=input("Enter the length of side_2")
 side_3=input("Enter the length of side_3")
