@@ -40,3 +40,4 @@ n=5
 
 //swapping values of variables without using third variable
 a,b = b,a
+a,b,c = b,c,a
