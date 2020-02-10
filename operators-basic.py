@@ -9,11 +9,11 @@ x*y
 x/y
 
 #Assignment operators
-x=x+2  // x+=2
-x=x-2  // x-=2
-x=x*2  // x*=2
-x=x/2  // x/=2
-x,y = 2,3 //as
+x=x+2     // x+=2
+x=x-2     // x-=2
+x=x*2     // x*=2
+x=x/2     // x/=2
+x,y = 2,3 //assigning values to multiple variables
 
 #Logical operators
 and
@@ -38,3 +38,5 @@ a!=b (check if a is not equalt to b)
 n=5
 -n will result into -5
 
+//swapping values of variables without using third variable
+a,b = b,a
