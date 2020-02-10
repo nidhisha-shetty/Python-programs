@@ -7,3 +7,10 @@ while i>=1:
         print("Python",end='')
         j+=1
     print()
+
+
+#simple while loop
+i=5
+while(i>=1):
+    print("Python")
+    i-=1
