@@ -20,3 +20,27 @@ print(a+b)
 res=eval(input("Enter a mathematical expression"))
 print(res)
 
+                                                          
+  
+                                                        #LISTS
+#list of int type
+li_num=[1,5,7,9,13,15] 
+
+#retrieving the 13 from the list
+li_num[4] or li_num[-2]
+
+#retrieving all the elements from the list
+lin_num[:]  
+
+#retrieving all the elements in reverse order from the list
+li_num[::-1]
+
+#list of string type
+li_str=['abc','pqr','xyz']
+
+#retrieving 'pqr' from li_str
+li_str[1]
+
+
+
+
