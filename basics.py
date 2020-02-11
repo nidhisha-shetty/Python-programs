@@ -41,6 +41,12 @@ li_str=['abc','pqr','xyz']
 #retrieving 'pqr' from li_str
 li_str[1]
 
+#creating nested list
+data=[li_num, li_str]
+
+
+
+
 
 
 
