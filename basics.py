@@ -44,7 +44,19 @@ li_str[1]
 #creating nested list
 data=[li_num, li_str]
 
+#list can contain element of multiple data types
+li_data=['python','2.5','3'] #list containing a string, integer, and a float element
 
+#list is mutable i.e it can be changed using following methods
+li_data.append('Java') #Java will be added as the last element of the list
+
+li_data.insert(1, 'IDLE') #'IDLE' will be added at index number 1
+
+li_data.remove(3) #element 3 will be removed from the list, remove() takes the element as the argument and not the index number, to remove element using index number try pop()
+
+li_pop(0) #pop() removes the elemenet using index number, element at index number 0 is removed
+
+li_pop() #removes the last element from the list
 
 
 
