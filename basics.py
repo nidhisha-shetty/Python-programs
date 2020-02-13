@@ -80,6 +80,14 @@ tu_data.count(4)    #count the occurence of number 4 in the tuple, in this case 
 
 tu_data.index(2)    #returns the index value of number 2 in the tuple, the answer in this case is '1'
 
+                                              
+                                              #Set
+ #set is an unordered collection of unique elements. 
+** set does not support indexing as the elements are unordered
 
+set_data={1,2,3,4,5,'abc'}
+
+set_data.add(8)     #adds 8 to the list
+set_data.remove(2)  #removes 2 from the list
 
 
