@@ -90,4 +90,11 @@ set_data={1,2,3,4,5,'abc'}
 set_data.add(8)     #adds 8 to the list
 set_data.remove(2)  #removes 2 from the list
 
-
+                                              #Variables
+#Strings are  immuatble and iterable over the set of characters
+a='pyhton' #assigning string to a variable
+b=5        #assigning int to a variable
+id(a)      #returning address of variable a
+id(b)      #returning address of variable b
+type(a)    #returning data type of value stored in variable a
+type(b)    #returning data type of value stored in variable b
