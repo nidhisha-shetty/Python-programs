@@ -1,4 +1,4 @@
-break: It brings the control out of the loop.
+** break: It brings the control out of the loop.
 
 #example 1:
 x='python'
