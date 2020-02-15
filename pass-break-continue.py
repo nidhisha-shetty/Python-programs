@@ -1,6 +1,6 @@
 break: It brings the control out of the loop.
 
-example 1:
+#example 1:
 x='python'
 for i in x:
     if i=='t':
@@ -8,24 +8,25 @@ for i in x:
     print("the letter is "+i)
 print("loop terminated")
 
-exanple 2:
+#exanple 2:
 for x in range(1,20):
     if x%3==0:
         continue
     print(x)
 print("Number is divisible by 3")
 
-###############
-avail_bal=500000
+#example 3:
+avail=5000
+x=int(input("Enter the amount"))
+while(x<=avail):
+    print("Your transaction is being processed, please wait")
+    break
+else:
+    print("Insufficient balance")
+print("BYE!!!")
 
-input_val=int(input("Enter the amount"))
-if input_val >avail_bal:
-  break
-  
-print("Insufficient balance")
-#################
 
-continue: It brings the control back to the top of the loop.
+<b>continue: It brings the control back to the top of the loop.</b>
 
 example 1:
 x='python'
