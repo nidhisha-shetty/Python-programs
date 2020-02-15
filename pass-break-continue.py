@@ -1,4 +1,4 @@
-** break: It brings the control out of the loop.
+#break: It brings the control out of the loop.
 
 #example 1:
 x='python'
@@ -26,7 +26,7 @@ else:
 print("BYE!!!")
 
 
-<b>continue: It brings the control back to the top of the loop.</b>
+#continue: It brings the control back to the top of the loop.
 
 example 1:
 x='python'
@@ -44,7 +44,7 @@ for x in range(1,20):
 print("Execution completed")
 
 
-pass: The pass statement in Python is used when a statement is required syntactically but you do not want any command or code to execute.
+#pass: The pass statement in Python is used when a statement is required syntactically but you do not want any command or code to execute.
 
 example 1: 
 for x in range(1,21):
