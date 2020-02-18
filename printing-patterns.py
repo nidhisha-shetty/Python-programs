@@ -47,3 +47,13 @@ o/p:    1234
         234
         34
         4   
+
+str1='efgh'
+str2='ijk'
+for num in range(4):
+    print(str1[:num+1]+str2[num:])
+    
+o/p:    eijk
+        efjk
+        efgk
+        efgh
