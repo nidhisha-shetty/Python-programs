@@ -73,7 +73,7 @@ li_data.sort()  #sorts the list in ascending order
                                              
   
                                               #tuples
-#tuples are immutable, similar to list, used when the elements are fixed and will not be changed. Since they are immutable the speed of execution is faster than the list
+#tuples are immutable, unlike list, used when the elements are fixed and will not be changed. Since they are immutable the speed of execution is faster than the list
 tu_data=(1,2,3,4,4,'abc')
 
 tu_data.count(4)    #count the occurence of number 4 in the tuple, in this case the answer is '2'
