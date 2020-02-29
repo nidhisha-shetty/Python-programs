@@ -1,3 +1,4 @@
+#If there exists a common element between two lists, return True, else False
 def overlapping(li1, li2):
     for x in li1:
         if x in li2:
