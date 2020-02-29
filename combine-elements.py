@@ -1,3 +1,4 @@
+#combining elements of two lists with unequal lengths alternatively
 def combine_ele(li1, li2):
     range_value=[]
     range_value+=str(len(li1))
