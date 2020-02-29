@@ -1,3 +1,4 @@
+#combine elements of two list with same length alternatively
 def combine_ele(li1, li2):
     range_value=[]
     for x in range(len(li1)):
