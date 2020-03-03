@@ -1,13 +1,11 @@
+#function that merges two sorted lists into a new sorted list. 
 def sorted_list(li1, li2):
     x=li1.sort()
     y=li2.sort()
     res=[]
     res+=li1+li2
     res.sort()
-    print(res)
-    
-    
-    
+    print(res)    
     
 li1=list(input("Enter a list 1"))
 li2=list(input("Enter a list 2"))
