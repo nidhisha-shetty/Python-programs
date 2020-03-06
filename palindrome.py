@@ -1,3 +1,4 @@
+#Check if a number is palindrome or not
 num=565
 res=0
 q=num
