@@ -1,3 +1,5 @@
+#Count the numberof active employees in a company
+
 import sys
 
 class emplstatus:
