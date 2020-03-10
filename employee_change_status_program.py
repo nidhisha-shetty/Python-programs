@@ -36,4 +36,3 @@ emplstatus.count=emplstatus.count+sum(values == "active" for values in emplstatu
 
 print("Total active employees are: "+str(emplstatus.count))
 
-
