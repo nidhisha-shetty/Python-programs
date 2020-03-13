@@ -1,3 +1,5 @@
+#Finding sum of numbers from 0 to user_input_value 
+
 def sum(num):
     temp=num
     if temp==0:
