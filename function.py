@@ -1,5 +1,5 @@
-In order to avoid coding same set of steps repeatedly, we use functions.
-for example, if we have payment option thrice in our project, we will create the paymant function once, and just call it thrice, hence avoiding repeated codes.
+#In order to avoid coding same set of steps repeatedly, we use functions.
+#for example, if we have payment option thrice in our project, we will create the paymant function once, and just call it thrice, hence avoiding repeated codes.
 
 
 
@@ -18,9 +18,9 @@ print(res3)
 
 
 
-In the example we are asking the function to just return the value and not print it. We are printing the result on function call.
+#In the example we are asking the function to just return the value and not print it. We are printing the result on function call.
 
-Inversely we can also ask the function to print the value, and not print the result on function call.
+#Inversely we can also ask the function to print the value, and not print the result on function call.
 
 def sum(num1, num2):  #passing formal arguments
     add=num1+num2
