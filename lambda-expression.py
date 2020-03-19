@@ -15,3 +15,22 @@ print(res)
 res=lambda a,b: a+b
 print(res(2,3))
 
+##Mathematical operations using lambda
+cube=lambda x: x*x*x
+print(cube(3))
+
+square=lambda x: x*x
+print(square(3))
+
+addition=lambda x,y:x+y
+print(addition(2,3))
+
+
+subtraction = lambda x,y: x-y
+print(subtraction(3,2))
+
+multiplication = lambda x,y:x*y
+print(multiplication(3,4))
+
+division= lambda x,y: x//y
+print(division(4,2))
