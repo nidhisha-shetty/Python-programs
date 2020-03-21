@@ -1,5 +1,5 @@
 #1. lambda expressions are used in case we want to create functions without name i.e anonymous function, and contains only one expression.
-#2. Instaed of creating a predefined function we can create a function when required using lamnda expression
+#2. Instaed of creating a predefined function we can create a function when required using lambda expression
 
 
 #Example:
