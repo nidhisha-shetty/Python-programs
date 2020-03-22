@@ -1,4 +1,6 @@
 #reduce() performs a particular function on all the elements together in the list and returns a single value
+#reduce() is defined in functools, hence we need to import functools at the start(** import functools **)
+
 
 #reduce function with predefined function
 def reduce(a,b):
