@@ -4,7 +4,7 @@
 def  div(a,b):
     print(a/b)
 
-def smart_div(func):
+def smart_div(func):                    #defining decorator
     def smart_div_args(x,y):
         
         if x<y:
@@ -12,7 +12,7 @@ def smart_div(func):
         return func(x,y)
     return smart_div_args
     
-division=smart_div(div)
+division=smart_div(div)                #calling decorator    #similar to @smart_div
 division(4,8)
 
 #Example 2: Multiplication of numbers, if either of the two numbers is equal to zero, print an error message, else return the result
