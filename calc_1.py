@@ -1,4 +1,4 @@
-from calc import *           #or "import calc"
+from calc import *          		#or "import calc"
 
 x=7
 y=9
