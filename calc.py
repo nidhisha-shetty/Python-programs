@@ -5,7 +5,7 @@
 #NOTE: Both the files should be in the same directory
 
 
-##Project A(calc.py) having addition and subtraction features
+##Project A(calc.py) having addition and subtraction functions
 
 a=5
 b=3
