@@ -4,7 +4,6 @@
 #These are basically used in large projects so instead of having one large module we can have multiple modules and import them.
 #NOTE: Both the files should be in the same directory
 
-
 ##Project A(calc.py) having addition and subtraction functions
 
 a=5
