@@ -9,7 +9,7 @@ DL()
 CN()
 WB()
 
-#"from special_var import *" bydefault executes all the function in "special_var" program, hence the result of this program would be:
+#"from special_var import *" bydefault executes all the function in "special_var" module, hence the result of this module would be:
 
 # Maharashtra
 # Delhi
