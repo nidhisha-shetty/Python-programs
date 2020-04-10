@@ -1,5 +1,5 @@
 class Employee:
-    hike=0.50										# class variable/static variable
+    hike=0.50									 	# class variable/static variable
 
     def __init__(self, current_salary):
         self.cur_sal=current_salary 				# instance variable
