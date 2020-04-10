@@ -1,5 +1,5 @@
 class Coaching:
-    def __init__(self, name, rollno):
+    def __init__(self, name, rollno): #constructor
         self.n=name
         self.r=rollno
     def student(self):
