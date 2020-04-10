@@ -1,11 +1,11 @@
 class Circle:
-    pi=3.14
+    pi=3.14                                 #class variable/static variable 
 
     def __init__(self, radius):
-        self.r=radius
+        self.r=radius                       #instance variable
 
     def area_of_circle(self):
-        result=Circle.pi*self.r*self.r
+        result=Circle.pi*self.r*self.r      
         print(result)
 
 c1=Circle(2)
