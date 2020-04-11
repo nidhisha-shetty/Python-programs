@@ -4,7 +4,7 @@ class Employee:
     def __init__(self, current_salary):
         self.cur_sal=current_salary 	   
 
-    def revised_sal(self):										#instance method because it works with object
+    def revised_sal(self):									    #instance method because it works with object
         increament=self.cur_sal*Employee.hike
         revised_sal=increament+self.cur_sal
         return(revised_sal)
