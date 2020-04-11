@@ -17,7 +17,7 @@ e3.emp()
 ```
 class Employee:
 
-	def __init__(self, name, id, place):     #called on object creation. name, id, place are the arguments passed to __init__ method. self is the object(e1, e2, e3) in execution
+	def __init__(self, name, id, place):     #called on object creation. name, id, place are the arguments passed to __init__ method. self is the object(e1, e2, e3) currently in execution.
 		
 		self.name=name                         #assigning values to object
 		self.id=id
