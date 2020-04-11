@@ -1,15 +1,11 @@
 #A class method is a method that is bound to a class rather than its object. It doesn't require creation of a class instance.
 
-#for reference: https://www.programiz.com/python-programming/methods/built-in/classmethod
-
-
-
 # class Employee:
 # 	emp_comp="BrowserStack"				#class variable
 # 	emp_dept="Engineering"				#class variable
 
 # 	@classmethod						
-# 	def emp_info(cls):					#class method
+# 	def emp_info(cls):				#class method
 # 		return cls.emp_comp
 # 	@classmethod	
 # 	def emp_info_dept(cls):				#class method
@@ -17,11 +13,6 @@
 
 # print(Employee.emp_info())
 # print(Employee.emp_info_dept())
-
-
-
-
-
 
 class Employee:
     hike_1k=0.50				               
@@ -40,7 +31,7 @@ class Employee:
         revised_sal=increament+self.cur_sal
         return(revised_sal)
         
-    @classmethod
+    @classmethod              			 #classmethod is executed irrespective of object creation
     def get_cur_sal(cls):
     	print("Hike for all the employess with salary less than 1k is "+str(cls.hike_1k) +" percent")
     	print("Hike for all the employess with salary between 1k - 2k is "+str(cls.hike_2k) +" percent")
