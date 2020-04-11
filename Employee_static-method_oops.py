@@ -2,7 +2,7 @@
 
 # class Employee:
 #     @staticmethod
-#     def count_of_employee():                #staticmethod accepts neither object nor class as an argument, it doesnot work with instance variables nor with class variables, it acts as  an independent function.
+#     def count_of_employee():                #staticmethod accepts neither object nor class as an argument, it doesnot work with instance variables nor with class variables, it acts as  an independent method.
 #         emp_count=0
 #         emp_list=['e1','e2','e3','e4','e5']
 #         for emp in emp_list:
