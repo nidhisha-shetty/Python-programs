@@ -1,3 +1,5 @@
+#Incase of creating a class with some fetaures which is already existing in some other class we can inherit the features from the existing class using inheritence					
+	
 						#single level inheritance
 class A:
 	def feature1(self):
