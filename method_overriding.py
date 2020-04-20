@@ -21,7 +21,7 @@ class A:
 
 class B(A):
 
-	def show(self):     		 #method overriding (show() of class B overrides show() method of class A)
+	def show(self):     		  #method overriding (show() of class B overrides show() method of class A)
 		print("Method B")
 
 a1=B()
