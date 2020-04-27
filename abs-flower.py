@@ -30,4 +30,3 @@ s1.petals()
 r1=Rose()
 r1.petals()
 
-# ref links 'https://www.geeksforgeeks.org/abstract-classes-in-python/' and 'https://www.youtube.com/watch?v=6Fs2MIf61oQ'
