@@ -1,5 +1,6 @@
-#generaor reduces the effort of creating iter() and next(), this is achieved with the help of "yield" keyword 
+#generator reduces the effort of creating iter() and next() as in iterators, this is achieved with the help of "yield" keyword 
 
+#Example:
 def sum():
 
     n=1
