@@ -26,4 +26,4 @@ t1.join()
 
 t2.join()
 
-print("Main tread execution")
+print("Main thread execution")
