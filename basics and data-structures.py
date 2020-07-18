@@ -26,7 +26,7 @@ print(res)
 #list of int type
 li_num=[1,5,7,9,13,15] 
 
-#retrieving the 13 from the list
+#retrieving the number 13 from the list
 li_num[4] or li_num[-2]
 
 #retrieving all the elements from the list
@@ -45,7 +45,7 @@ li_str[1]
 data=[li_num, li_str]
 
 #list can contain element of multiple data types
-li_data=['python','2.5','3']  #list containing a string, integer, and a float element
+li_data=['python',2.5,3]  #list containing a string, integer, and a float element
 
 #list is mutable i.e it can be changed using following methods
 li_data.append('Java')        #Java will be added as the last element of the list
