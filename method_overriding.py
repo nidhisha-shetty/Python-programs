@@ -13,7 +13,7 @@ b1=B()
 b1.show()
 
 
-#Example 2, with output "Method B
+#Example 2, with output "Method B"
 class A:
 
 	def show(self):
