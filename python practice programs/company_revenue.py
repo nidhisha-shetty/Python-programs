@@ -1,3 +1,6 @@
+# Read data from a CSV file and write a function that returns the future revenue for the company based on the data given in the CSV file
+# Beyond 2030, the function should return ‘data not available beyond 2030’
+
 import csv
 import json
 data=[]
@@ -5,20 +8,17 @@ with open('C:/Users/Nidhisha Shetty/Desktop/test.csv','rt', encoding='utf8') as 
   reader = csv.reader(f, skipinitialspace=True)
   data.append(tuple(next(reader)))
   for year, company, revenue in reader:
-        data.append((int(year), company, int(revenue)))
+    data.append((int(year), company, int(revenue)))
 res=[]
 for x in range(16):
-	a=list(data[x])
-	res.append(a)
-
+  a=list(data[x])
+  res.append(a)
 eka=res[13]
 dvi=res[14]
 tri=res[15]
 chatur=res[12]
-
 di={eka[1]:eka[2], dvi[1]:dvi[2],tri[1]:tri[2],chatur[1]:chatur[2]}
-di_1={'eka':5, 'dvi':6, 'tri':3, 'chatur':4}
-
+di_1={'eka':5, 'dvi':6, 'tri':3, 'chatur':4}  #growth rate of the respective companies
 def projected_revenue(company_name, year):
 	if year<2031:
 		year_dif=year-2019
@@ -36,27 +36,22 @@ def projected_revenue(company_name, year):
 revenue=projected_revenue('tri', 2031) 
 print("The future revenue of the company, "+str(revenue))
 
-#   for row in data:
-#   	print(type(row[0]))
-#   	res=row
-#   	year=(res[0])
-#   	company=(res[1])
-#   	revenue=(res[2])
-#   	li_year=list(year)
-#   print(type(row))
 
 
-
-# def projected_revenue(company_name, year):
-# 	for x in company:
-# 		if x==company_name:
-# 			print("yay")
-# 		else:
-# 			break
-
-
-
-
-
-
-# res=projected_revenue('eka', 2021)
+#Data in CSV file
+# 2015, eka, 200000
+# 2016, dvi, 100000
+# 2018, tri, 50000
+# 2015, chatur, 10000
+# 2016, eka, 70000
+# 2015, dvi, 19000
+# 2015, tri, 45000
+# 2017, chatur, 22000
+# 2017, eka, 80000
+# 2017, dvi, 88000
+# 2016, tri, 15500
+# 2018, chatur, 32000
+# 2019, eka, 123000
+# 2019, dvi, 	
+# 2019, tri, 48000
+# 2019, chatur, 12000
