@@ -32,7 +32,7 @@ li_num[4] or li_num[-2]
 #retrieving all the elements from the list
 lin_num[:]  
 
-#retrieving all the elements in order from the list
+#retrieving all the elements in reverse order from the list
 li_num[::-1]
 
 #list of string type
