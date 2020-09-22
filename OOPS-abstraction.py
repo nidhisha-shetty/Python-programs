@@ -30,3 +30,4 @@ s1.petals()
 r1=Rose()
 r1.petals()
 
+# https://www.netjstech.com/2019/06/abstraction-in-python.html
