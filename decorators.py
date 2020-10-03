@@ -30,3 +30,22 @@ def mul(a,b):
 value1 = int(input("Enter first number"))
 value2 = int(input("Enter second number"))
 mul(value1, value2)
+
+#Example 3:
+import time
+def time_dec(func):
+    def time_dec_args(*args, **kwargs):
+        start=time.time()
+        result=func(*args, **kwargs)
+        stop=time.time()
+        print("time taken"+str(start-stop))
+        return result
+    return time_dec_args
+
+@time_dec
+def cube(num):
+    res=num*num*num
+    return res
+    
+print(cube(3))
+
