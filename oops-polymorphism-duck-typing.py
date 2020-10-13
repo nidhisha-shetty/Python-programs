@@ -17,3 +17,4 @@ class Laptop:
 ide=Csharp() #ide=Java() 
 l1=Laptop()
 l1.execute(ide)
+#Referexample: https://www.netjstech.com/2019/06/polymorphism-in-python.html
