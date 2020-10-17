@@ -1,12 +1,13 @@
 #Check if a number is palindrome or not
-num=565
+number=523
+temp=number
 res=0
-q=num
-while(q!=0):
-	new_q=q//10
-	rem=q%10
-	res=res*10+rem
-if res==num:
-	print("The number is a palindrome")
+while(temp!=0):
+    q=temp//10
+    rem=temp%10
+    res=res*10+rem
+    temp=q
+if res==number:
+    print("The number is a palindrome")
 else:
-	print("The number is not a plaindrome")
+    print("The number is not a plaindrome")
