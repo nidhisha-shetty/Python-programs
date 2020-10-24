@@ -18,7 +18,7 @@ def missingelems(li):
     for max_x in li:
         if max_x > max_val:
             max_val = max_x
-    for y in range(min_val, (max_val)+1):
+    for y in range(min_val, max_val):
         if y not in li:
             miss.append(y)
     return miss
