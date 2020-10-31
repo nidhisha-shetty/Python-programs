@@ -1,4 +1,6 @@
-#using inbuilt functions
+#for sorted and unsorted array
+
+##using inbuilt functions
 def missingelems(li):
     miss=[]
     for y in range(min(li), max(li)+1):
@@ -8,7 +10,7 @@ def missingelems(li):
 li=[2, 5, 1, 4,7,10,15]
 missingelems(li)
 
-#without using inbuilt functions
+##without using inbuilt functions
 def missingelems(li):
     miss=[]
     min_val = max_val=li[0]
@@ -23,3 +25,15 @@ def missingelems(li):
     return miss
 li=[2, 5, 1, 4,7,10,15]
 missingelems(li)
+
+#for sorted array
+def missing(li):
+    missing=[]
+    for x in range(len(li)-1):
+        if li[x]+1==li[x+1]:
+            pass
+        else:
+            missing.append(li[x]+1)
+    return missing
+li=[1,2,3,5]
+print(missing(li))
