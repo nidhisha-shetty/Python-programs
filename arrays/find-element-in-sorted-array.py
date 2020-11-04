@@ -1,4 +1,4 @@
-#Find element in sorted array
+#Find element in sorted array (Binary search)
 def search_elem(arr, l, r, x):
     while l<r:
         mid=(l+r)//2
