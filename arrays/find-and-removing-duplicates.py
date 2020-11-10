@@ -9,9 +9,11 @@ print(set(dup))
 
 #Removing duplicates
 def remove_duplicate(li):
-    for x in range(len(li)-1):
+    x=0
+    while x<(len(li)-1):
         if li[x]==li[x+1]:
             li.remove(li[x+1])
+        x+=1
     return li
 li=[1,1,2,2,3,4,5]
 print(remove_duplicate(li))
