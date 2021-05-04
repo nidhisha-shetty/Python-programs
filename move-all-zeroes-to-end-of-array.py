@@ -9,3 +9,6 @@ for x in range(len(inp)):
         count+=1
 
 print(inp)
+
+#Time complexity: O(n) 
+#Space Complexity: O(1)
