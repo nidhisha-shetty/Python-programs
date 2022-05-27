@@ -1,5 +1,5 @@
 '''
-P.S: Implement method overriding, if the numbers are greater than 100 then call calculate() of child class else call calculate() of parent class.
+P.S: Implement method overriding, if the numbers are greater than 100 then execute calculate() of child class else execute calculate() of parent class.
 '''
 
 #Solution:
